@@ -33,12 +33,15 @@ class App extends Component {
             <img src={this.state.items.map( item => (item["image_url"]))[0]} className="App-logo" alt="logo" />
             <h1 className="App-title">The best anime ever</h1>
               <div>
-              <ul>
+              <ul className="w3-ul">
                   {this.state.items.map(item => (
                       <li key={item["title"]}>{item["title"]}</li>
                   ))}
                   {this.state.items.map(item => (
                     <li key={item["synopsis"]}>{item["synopsis"]}</li>
+                  ))}
+                  {this.state.items.map(item => (
+                    <li key={item["url"]}>{item["url"]}</li>
                   ))}
               </ul>
               </div>
