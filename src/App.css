@@ -19,6 +19,36 @@
   color: white;
 }
 
+.App-table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.App-textarea {
+  width: 400px;
+  height: 100px;
+}
+
+.App-textbox {
+  width: 400px;
+}
+
+.App-label {
+  text-align: right;
+  width: 100px;
+  display: block;
+}
+
+.App-form {
+  background-color: #2c313a;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
 .App-link {
   color: #61dafb;
 }
